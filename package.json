@@ -1,7 +1,7 @@
 {
-	"name": "mern-crash-course",
+	"name": "Product-Store",
 	"version": "1.0.0",
-	"description": "",
+	"description": "<h1 align=\"center\">MERN Crash Course 🚀</h1>",
 	"main": "index.js",
 	"scripts": {
 		"dev": "NODE_ENV=development nodemon backend/server.js",
@@ -13,11 +13,20 @@
 	"author": "",
 	"license": "ISC",
 	"dependencies": {
-		"dotenv": "^16.4.5",
-		"express": "^4.19.2",
-		"mongoose": "^8.5.1"
+		"cross-env": "^7.0.3",
+		"dotenv": "^16.6.1",
+		"express": "^4.21.2",
+		"mongoose": "^8.16.4"
 	},
 	"devDependencies": {
-		"nodemon": "^3.1.4"
-	}
+		"nodemon": "^3.1.10"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/burakorkmez/mern-crash-course.git"
+	},
+	"bugs": {
+		"url": "https://github.com/burakorkmez/mern-crash-course/issues"
+	},
+	"homepage": "https://github.com/burakorkmez/mern-crash-course#readme"
 }
