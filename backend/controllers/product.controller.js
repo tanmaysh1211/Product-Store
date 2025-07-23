@@ -39,7 +39,8 @@ export const updateProduct = async (req, res) => {
 	}
 
 	try {
-		const updatedProduct = await Product.findByIdAndUpdate(id, product, { new: true });
+		const updatedProduct = await Product.findByIdAndUpdate(id, product, { new: true }); 
+		// new true will give updated object , if not set will give you older document
 		res.status(200).json({ success: true, data: updatedProduct });
 	} catch (error) {
 		res.status(500).json({ success: false, message: "Server Error" });
